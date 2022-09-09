@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hayden's Website</title>
+  <style>
+    body {
+      background-image: url(https://static.vecteezy.com/system/resources/previews/007/109/599/original/sunset-background-with-coconut-tree-vector.jpg);
+      background-size:cover;
+      background-size: 1450px;
+      animation-name:explosion;
+      animation-delay:200s;
+      animation-duration: 1s;
+    }
+
+    @keyframes explosion{
+      from{ background-image: url(https://static.vecteezy.com/system/resources/previews/007/109/599/original/sunset-background-with-coconut-tree-vector.jpg)}
+      to{background-image: url(https://www.ready.gov/sites/default/files/2019-09/hero_nuclear_blast.jpg)}
+    }
+
+    #name {
+      font-size: 20px;
+    }
+
+    #navbar {
+      font-size: 25px;
+      margin-bottom: 3%;
+      background-color: deepskyblue;
+      border: 20px;
+      border-radius: 10px 50px;
+      font-family: imact, fantasy;
+      animation-name:wave;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes wave{
+      from {background-color: deepskyblue;}
+      to{background-color:deeppink;}
+    }
+    #queen{
+      width: 20%;
+    }
+    #main-content {
+      margin-left: 10%;
+      color: gold;
+      font-family: papyrus;
+    }
+
+    #webname {
+      margin-right: 50%;
+      margin-left: 10%;
+      background: rgba(212, 212, 212, 0);
+    }
+
+    #brick {
+      width: 20%;
+      background: rgba(212, 212, 212, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <Div id="navbar">
+    <P><b id="webname">Hayden Arseneaux's Website</b> <a href="https://www.tacobell.com/">Portfolio</a></P>
+  </Div>
+  <Div id="main-content">
+    <p><B class=words id="name">Hayden Arseneaux</B></p>
+    <p>My intrests include</p>
+    <p><ul class="words" id="list">
+      <li>Cooking</li>
+      <li>Working Out</li>
+      <li>Music</li>
+    </ul>
+    </p>
+    <img src="https://assets.stickpng.com/images/580b585b2edbce24c47b2b9e.png" id="brick">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Queen_Elizabeth_II_in_March_2015.jpg/1200px-Queen_Elizabeth_II_in_March_2015.jpg" id="queen">
+  </Div>
+
+</body>
+
+</html>
